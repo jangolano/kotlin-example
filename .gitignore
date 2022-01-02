@@ -1,0 +1,11 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+# Ignore the intellij project folder
+.idea
+
+# Ignore the folder created by the cdk
+cdk.out
