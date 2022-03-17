@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    val cdkVersion = "1.141.0"
+    val cdkVersion = "1.149.0"
     implementation("software.amazon.awscdk:core:${cdkVersion}")
     implementation("software.amazon.awscdk:lambda:${cdkVersion}")
     implementation("software.amazon.awscdk:apigateway:${cdkVersion}")
