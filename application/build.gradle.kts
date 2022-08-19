@@ -13,7 +13,7 @@ val ktLint: Configuration by configurations.creating
 dependencies {
     implementation("com.amazonaws:aws-lambda-java-events:3.11.0")
     implementation("com.amazonaws:aws-lambda-java-core:1.2.1")
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.0")
     ktLint("com.pinterest:ktlint:0.43.2") {
         attributes {
             attribute(Bundling.BUNDLING_ATTRIBUTE, objects.named(Bundling.EXTERNAL))
