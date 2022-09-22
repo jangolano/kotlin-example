@@ -8,7 +8,7 @@ repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
 }
-val mockVersion = "1.12.2"
+val mockVersion = "1.13.1"
 val ktLint: Configuration by configurations.creating
 dependencies {
     implementation("com.amazonaws:aws-lambda-java-events:3.11.0")
