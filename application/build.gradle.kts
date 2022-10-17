@@ -22,7 +22,7 @@ dependencies {
 
     testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
     testImplementation("io.mockk:mockk:$mockVersion")
-    testImplementation("io.github.serpro69:kotlin-faker:1.9.0")
+    testImplementation("io.github.serpro69:kotlin-faker:1.12.0")
 }
 
 tasks.named<Test>("test") {
